@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: lightgrey;
+    width: 80%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.cards{
+    border: solid black 1px;
+    margin: 15px;
+    padding: 10px;
+}
+
+h4, h5{
+    font-weight: 500;
+}
+
+h5{
+    font-style: italic;
+}
+
+#buscar{
+    width: 60%;
+    padding: 2px;
+}
+
+#login{
+    color: white;
+    background-color: dodgerblue;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 10px 0px rgba(118,113,113,0.75);
+}
+
+#nLikes1, #nLikes2{
+    margin-right: 5px;
+}
+
+#meGusta1, #meGusta2{
+    display: flex;
+    background-color: rgb(248, 225, 195);
+    padding: 3px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px 0px rgba(118,113,113,0.75);
+}
+
+#btnDef{
+    color: white;
+    background-color: rgb(1, 87, 1);
+    padding: 5px 50px;
+    box-shadow: 3px 3px 10px 0px rgba(118,113,113,0.75);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    flex: 3
+}
+
+main{
+    display: flex;
+    width: 80%;
+}
+
+aside{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
